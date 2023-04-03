@@ -20,8 +20,10 @@
     "url": "https://github.com/gtucv/pSIMPLY-CHOCOLATE-project/issues"
   },
   "dependencies": {
+    "gh": "^2.8.9",
     "gh-pages": "^5.0.0",
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "pages": "^0.0.16"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
