@@ -1,29 +1,27 @@
 {
-  "name": "parcel-project-template",
+  "name": "simply-chocolate",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://fgtucv.github.io/SIMPLY-CHOCOLATE-project/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /SIMPLY-CHOCOLATE-project/",
+    "build": "parcel build src/*.html --public-url /simply-chocolate/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gtucv/pSIMPLY-CHOCOLATE-project.git"
+    "url": "git+https://github.com/irashovdra/simply-chocolate.git"
   },
   "keywords": [],
-  "author": "Oles Slava <oles.slava23@gmail.com>",
+  "author": "Iryna Shovdra <test@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gtucv/pSIMPLY-CHOCOLATE-project/issues"
+    "url": "https://github.com/irashovdra/simply-chocolate/issues"
   },
   "dependencies": {
-    "gh": "^2.8.9",
     "gh-pages": "^5.0.0",
-    "modern-normalize": "^1.1.0",
-    "pages": "^0.0.16"
+    "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
