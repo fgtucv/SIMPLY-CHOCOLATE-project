@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "",
   "homepage": "https://fgtucv.github.io/SIMPLY-CHOCOLATE-project/",
+  
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /SIMPLY-CHOCOLATE-project/",
@@ -20,6 +21,7 @@
     "url": "https://github.com/gtucv/pSIMPLY-CHOCOLATE-project/issues"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
