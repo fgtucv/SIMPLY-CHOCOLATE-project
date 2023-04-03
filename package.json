@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/gtucv/pSIMPLY-CHOCOLATE-project.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Oles Slava <oles.slava23@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/gtucv/pSIMPLY-CHOCOLATE-project/issues"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
