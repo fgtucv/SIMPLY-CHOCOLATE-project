@@ -5,19 +5,19 @@
   "homepage": "https://fgtucv.github.io/SIMPLY-CHOCOLATE-project/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /simply-chocolate/",
+    "build": "parcel build src/*.html --public-url /SIMPLY-CHOCOLATE-project/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/irashovdra/simply-chocolate.git"
+    "url": "git+https://github.com/fgtucv/SIMPLY-CHOCOLATE-project.git"
   },
   "keywords": [],
-  "author": "Iryna Shovdra <test@gmail.com>",
+  "author": "fgtucv <test@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/irashovdra/simply-chocolate/issues"
+    "url": "https://github.com/fgtucv/SIMPLY-CHOCOLATE-project/issues"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
