@@ -1,0 +1,94 @@
+.header {
+    width: 100%;
+   flex-direction: row;
+   padding: 0px;
+   gap: 188px;
+}
+
+.header-main-div {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111111;
+    text-transform: uppercase;
+    
+}
+
+.header__icon {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    stroke: #FD9222;
+}
+
+.header__icon:hover {
+    stroke: #fdf622;
+}
+
+.header-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-left: 188px;
+    margin-right: 137px;
+}
+
+.header-list__link {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: -0.02em;
+color: #111111;
+}
+
+.header-list__link:hover {
+    color: #FD9222;
+}
+
+.header-lis-icon {
+    display: flex;
+    max-width: 60px;
+    gap: 20px;
+    margin-left: 137px;
+}
+
+.burger {
+    display: none;
+    width: 24px;
+    height: 16px;
+}
+
+.header-lis-icon__instagram{
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    stroke: #000000;
+
+}
+
+.header-lis-icon__twitter{
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    stroke: #000000;
+
+}
+
+.header-lis-icon__instagram:hover{
+    stroke: #FD9222;
+
+}
+
+.header-lis-icon__twitter:hover {
+    stroke: #FD9222;
+}
