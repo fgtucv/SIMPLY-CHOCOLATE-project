@@ -14,7 +14,7 @@
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #111111;
-  width: 411px;
+  max-width: 411px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 28px;
@@ -30,7 +30,7 @@
   line-height: 18px;
   letter-spacing: -0.02em;
   color: #111111;
-  width: 486px;
+  max-width: 486px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -38,10 +38,12 @@
 
 .ingredients-section__list {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-start;
   gap: 19px;
   margin-top: 50px;
+  justify-content: center;
 }
 
 .ingredients-section__item {
@@ -53,6 +55,12 @@
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
+  transition: border 250ms linear 250ms, background-color 250ms linear 250ms;
+}
+
+.ingredients-section__item:hover{
+  border: none;
+  background-color: transparent;
 }
 
 .ingredients-section__item:hover .ingredients-section__info-hover{

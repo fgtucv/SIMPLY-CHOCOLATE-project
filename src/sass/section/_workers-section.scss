@@ -141,12 +141,18 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 517px;
-  height: 631px;
+  width: 100%;
   background-color: #fafafa;
   border-radius: 15px;
-  padding-top: 40px;
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+  @media screen and (min-width: 768px) {
+    width: 517px;
+    padding-top: 40px;
   padding-left: 40px;
+  padding-bottom: 40px;
+    }
 }
 
 .work-section__modal-title {
@@ -175,7 +181,7 @@
 .work-section__close-icon {
   width: 28px;
   height: 28px;
-  fill: #111111;
+  stroke: #111111;
 
   z-index: 1000;
 }
@@ -188,16 +194,26 @@
   display: block;
   align-items: flex-start;
   padding-left: 24px;
-  width: 437px;
+  width: 95%;
   height: 66px;
   border-radius: 15px;
   border: 1px solid rgba(17, 17, 17, 0.1);
   background-color: transparent;
   margin-bottom: 19px;
+  @media screen and (min-width: 375px) {
+    width: 437px;
+    height: 66px;
+    }
 }
 
 .tel-input {
-  padding-left: 153px;
+  padding-left: 24px;
+  @media screen and (min-width: 375px) {
+    padding-left: 106px;
+    }
+  @media screen and (min-width: 1200px) {
+    padding-left: 153px;
+    }
 }
 
 .work-section__tel-div {
@@ -205,9 +221,12 @@
   left: 64px;
   top: 325px;
   border-right: 1px solid rgba(17, 17, 17, 0.1);
-  display: flex;
+  display: none;
   width: 125px;
   height: 32px;
+  @media screen and (min-width: 375px) {
+    display: flex;
+    }
 }
 
 .flag-Ukrain {
@@ -235,9 +254,13 @@
   margin-bottom: 18px;
   padding-left: 24px;
   padding: 22px;
-  width: 437px;
+  width: 95%;
   height: 137px;
   border-radius: 15px;
+  @media screen and (min-width: 375px) {
+    width: 437px;
+    height: 137px;
+    }
 }
 
 .work-section__textarea::placeholder {
@@ -331,4 +354,20 @@ color: #FFFFFF;
 width: 384px;
 left: -35px;
 bottom: -35px;
+}
+
+.none{
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+.none-2{
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
