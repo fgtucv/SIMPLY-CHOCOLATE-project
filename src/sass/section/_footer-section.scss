@@ -1,0 +1,106 @@
+.footer-section {
+    background-color: #1E1823;
+    padding-top: 50px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    @media screen and (min-width: 768px) {
+        padding-bottom: 0;
+        }
+}
+
+.footer-section .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-section__div {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    @media screen and (min-width: 768px) {
+        flex-wrap: nowrap;
+        }
+}
+.footer-section__main-title {
+    font-weight: 500;
+line-height: 34px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+max-width: 300px;
+
+font-size: 24px;
+@media screen and (min-width: 768px) {
+    margin-right: 124px;
+    }
+@media screen and (min-width: 1200px) {
+  font-size: 28px;
+  margin-right: 543px;
+  }
+}
+.footer-section__oreng {
+    color: #FD9222;
+}
+.footer-section__contact-list {
+    display: block;
+    gap: 4px;
+    @media screen and (min-width: 375px) {
+        margin-right: 100px;
+        }
+    @media screen and (min-width: 768px) {
+        margin-left: 63px;
+        }
+}
+.footer-section__contact-titel {
+    font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: left;
+color: #FFFFFF;
+margin-bottom: 14px;
+}
+
+.footer-section__contact-span {
+    font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-align: left;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+.footer-section__social-list {
+    display: flex;
+    gap: 14px;
+}
+
+.footer-section__icon {
+    width: 24px;
+height: 24px;
+stroke: #FFFFFF;
+}
+.footer-section__how-list {
+    display: block;
+    gap: 18px;
+    margin-top: 24px;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        gap: 24px;
+        }
+}
+
+.footer-section__how-span {
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+
+.footer-section__contact-div{
+    display: flex;
+    justify-content: left;
+    margin-top: 32px;
+    @media screen and (min-width: 768px) {
+        display: block;
+        margin-top: 0;
+    }
+}
