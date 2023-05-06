@@ -149,6 +149,7 @@
   border-radius: 15px;
   padding-top: 32px;
   padding-left: 24px;
+  padding-right: 24px;
   padding-bottom: 32px;
   @media screen and (min-width: 768px) {
     width: 517px;
@@ -175,8 +176,8 @@
 
 .work-section__button-close {
   position: absolute;
-  top: 40px;
-  right: 40px;
+  top: 15px;
+  right: 15px;
   background-color: transparent;
   border: none;
 }
