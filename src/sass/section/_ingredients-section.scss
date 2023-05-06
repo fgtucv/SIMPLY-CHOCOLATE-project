@@ -1,4 +1,4 @@
-.ingredients-section{
+.ingredients-section {
   margin-top: 128px;
 }
 
@@ -45,26 +45,38 @@
   margin-top: 50px;
   justify-content: center;
   padding: 0;
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 }
 
 .ingredients-section__item {
   border-radius: 15px;
+  width: 335px;
   height: 270px;
-  width: 270px;
   padding-top: 28px;
   padding-left: 28px;
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
   transition: border 250ms linear 250ms, background-color 250ms linear 250ms;
+  @media screen and (min-width: 768px) {
+    width: 336px;
+    height: 270px;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 270px;
+    width: 270px;
+  }
 }
 
-.ingredients-section__item:hover{
+.ingredients-section__item:hover {
   border: none;
   background-color: transparent;
 }
 
-.ingredients-section__item:hover .ingredients-section__info-hover{
+.ingredients-section__item:hover .ingredients-section__info-hover {
   transform: translate(0%, 0%);
   opacity: 1;
 }
@@ -89,8 +101,20 @@
   left: 0;
   bottom: 0;
   right: 0;
+  overflow-y: scroll;
   transition: transform 250ms linear 250ms, opacity 250ms linear 250ms;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
 .ingredients-section__hover-title {
   font-weight: 600;
 
@@ -145,7 +169,7 @@
   color: #111111;
 }
 
-.flex-div{
+.flex-div {
   display: flex;
   margin-bottom: 14px;
   margin-top: 8px;
