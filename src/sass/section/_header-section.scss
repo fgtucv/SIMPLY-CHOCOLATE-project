@@ -1,8 +1,8 @@
-.header {
+header {
     width: 100%;
-   flex-direction: row;
-   padding: 0px;
-   gap: 188px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+
 }
 
 .header-main-div {
@@ -31,9 +31,6 @@
     stroke: #FD9222;
 }
 
-.header__icon:hover {
-    stroke: #fdf622;
-}
 
 .header-list {
     display: flex;
