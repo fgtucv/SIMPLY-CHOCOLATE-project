@@ -40,6 +40,14 @@ header {
     gap: 24px;
     margin-left: 188px;
     margin-right: 137px;
+
+    @media screen and (min-width: 375px) {
+        display: none;  
+        }  
+    
+        @media screen and (min-width: 768px) {
+        display: none;
+        }  
 }
 
 .header-list__link {
