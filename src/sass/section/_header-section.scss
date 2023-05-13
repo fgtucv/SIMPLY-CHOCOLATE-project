@@ -1,7 +1,18 @@
 header {
     width: 100%;
+   padding-top: 20px;
+   padding-bottom: 14px;
+
+   @media screen and (min-width: 768px) {
+    padding-top: 26px;
+    padding-bottom: 34px;
+    }
+
+   @media screen and (min-width: 1200px) {
    padding-top: 24px;
    padding-bottom: 24px;
+   }  
+
 
 }
 
@@ -18,7 +29,7 @@ header {
     font-size: 18px;
     line-height: 1.11;
     letter-spacing: -0.03em;
-    color: #111111;
+    color: $description-color;
     text-transform: uppercase;
     text-decoration: none;
     margin-left: 4px;
@@ -28,39 +39,46 @@ header {
 .header__icon {
     width: 24px;
     height: 24px;
-    fill: #ffffff;
-    stroke: #FD9222;
+    fill: $text-color;
+    stroke: $main-color;
 }
 
 
 .header-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    margin-left: 188px;
-    margin-right: 137px;
+    display: none;
 
-    @media screen and (min-width: 375px) {
+    @media screen and (min-width: 768px) {
         display: none;  
         }  
     
-        @media screen and (min-width: 768px) {
-        display: none;
+        @media screen and (min-width: 1200px) {
+            display: flex;
+        justify-content: center;
+       align-items: center;
+       gap: 24px;
+       margin-right: 137px;
         }  
 }
 
 .header-list__link {
-    font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: -0.02em;
-color: #111111;
-text-decoration: none;
+display: none;
+
+@media screen and (min-width: 768px) {
+    display: none;  
+    }  
+
+    @media screen and (min-width: 1200px) {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: -0.02em;
+        color: $description-color;
+        text-decoration: none;
+    }  
 }
 
 .header-list__link:hover {
-    color: #FD9222;
+    color: $main-color;
 }
 
 .header-lis-icon {
@@ -79,7 +97,7 @@ text-decoration: none;
 .header-lis-icon__instagram{
     width: 24px;
     height: 24px;
-    fill: #ffffff;
+    fill:$text-color;
     stroke: #000000;
 
 }
@@ -87,16 +105,16 @@ text-decoration: none;
 .header-lis-icon__twitter{
     width: 24px;
     height: 24px;
-    fill: #ffffff;
+    fill: $text-color;
     stroke: #000000;
 
 }
 
 .header-lis-icon__instagram:hover{
-    stroke: #FD9222;
+    stroke: $main-color;
 
 }
 
 .header-lis-icon__twitter:hover {
-    stroke: #FD9222;
+    stroke: $main-color;
 }

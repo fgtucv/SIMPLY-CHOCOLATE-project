@@ -17,12 +17,12 @@
     text-align: center;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-    color: #111111;
+    color: $description-color;
     margin-top: 128px;
 }
 
 .work__title-color {
-    color:#FD9222 ;
+    color:$main-color ;
 }
 
 .work__card {
@@ -42,18 +42,18 @@
     
 }
 
-.work__discription{
+// .work__discription{
 
-    // @media screen and (min-width: 375px) {
-    //     margin-left: auto;
-    //     margin-right: auto;
-    //     }  
+//     @media screen and (min-width: 375px) {
+//         margin-left: auto;
+//         margin-right: auto;
+//         }  
     
-    //     @media screen and (min-width: 768px) {
-    //         margin-left: auto;
-    //         margin-right: auto;
-    //     }  
-}
+//         @media screen and (min-width: 768px) {
+//             margin-left: auto;
+//             margin-right: auto;
+//         }  
+// }
 
 .work__title-text {
     max-width: 516px;
