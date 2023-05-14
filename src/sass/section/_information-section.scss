@@ -1,19 +1,24 @@
 .information {
     width: 100%;
-    background: #1e1823;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 72px;
+    background: $background-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+        }  
 }
 
 .information__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 38px;
+    gap: 20px;
 
     @media screen and (min-width: 768px) {
-    gap: 50px; 
+    gap: 32px; 
     flex-wrap: wrap;  
     }  
 
@@ -23,10 +28,14 @@
     }  
 }
 
+.information__item{
+    height: 244px;
+}
+
 .information__icon {
     width: 32px;
     height: 32px;
-    fill: #fd9222;
+    fill: $main-color;
 }
 
 
@@ -45,7 +54,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 1.22;
-    color: #ffffff;
+    color: $text-color;
     margin-bottom: 18px;
 }
 
@@ -54,6 +63,6 @@
     font-size: 14px;
     line-height: 1.21;
     letter-spacing: -0.02em;
-    color: rgb(255, 255, 255);
+    color: #ffffffb3;
     max-width: 308px;
 }

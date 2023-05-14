@@ -6,7 +6,7 @@ line-height: 28px;
 text-align: center;
 letter-spacing: -0.03em;
 text-transform: uppercase;
-color: #FD9222;
+color:$main-color;
 margin-top: 128px;
 margin-bottom: 50px;
 }
@@ -19,7 +19,7 @@ line-height: 28px;
 text-align: center;
 letter-spacing: -0.03em;
 text-transform: uppercase;
-color:  #111111;
+color:  $description-color;
 }
 
 .product__list{
@@ -55,7 +55,7 @@ color:  #111111;
         font-size: 14px;
         line-height: 18px;
         letter-spacing: -0.02em;
-        color: #111111;
+        color: $description-color;
         }
         
         .product__btn{
@@ -65,7 +65,7 @@ color:  #111111;
         gap: 14px;
         width: 162px;
         height: 50px;
-        background: #FD9222;
+        background: $main-color;
         border-radius: 100px;
         border: none;
         
