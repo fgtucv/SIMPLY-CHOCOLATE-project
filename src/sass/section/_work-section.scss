@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // margin: 128px 0;
 }
 
 .work__title {
@@ -26,13 +25,14 @@
 }
 
 .work__card {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px;
     gap: 20px;
+    outline: solid rgb(9, 255, 0);
 }
 
 .work__image {
@@ -42,18 +42,9 @@
     
 }
 
-// .work__discription{
-
-//     @media screen and (min-width: 375px) {
-//         margin-left: auto;
-//         margin-right: auto;
-//         }  
-    
-//         @media screen and (min-width: 768px) {
-//             margin-left: auto;
-//             margin-right: auto;
-//         }  
-// }
+.work__discription{
+ width: 516px;
+}
 
 .work__title-text {
     max-width: 516px;
