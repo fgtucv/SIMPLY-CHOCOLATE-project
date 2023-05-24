@@ -262,6 +262,7 @@
   width: 100%;
   height: 137px;
   border-radius: 15px;
+  resize: none;
 }
 
 .work-section__textarea::placeholder {
@@ -292,6 +293,10 @@
 
 // modal-2
 
+.is-close{
+  opacity: 0;
+}
+
 .backdrop-2 {
   position: fixed;
   z-index: 100;
@@ -303,7 +308,7 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 .is-hidden2 {
-  opacity: 0;
+  opacity: 1;
   pointer-events: none;
 }
 .modal-2 {
@@ -311,13 +316,19 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 516px;
-height: 414px;
+  width: 311px;
+height: 350px;
 background-color: #FD9222;
 border-radius: 15px;
-padding-top: 163px;
+padding-top: 84px;
 padding-left: 170px;
 overflow: hidden;
+
+@media screen and (min-width: 768px) {
+  width: 516px;
+height: 414px;
+padding-top: 163px;
+}
 }
 .modal-2__button {
   position: absolute;
@@ -330,9 +341,9 @@ border: none;
 border-radius: 50%;
 }
 .modal-2__icon {
-  width: 40px;
-height: 40px;
-fill: #F16529;
+  width: 22px;
+height: 22px;
+stroke: #F16529;
 }
 .modal-2__titel {
   font-weight: 600;
@@ -352,9 +363,12 @@ color: #FFFFFF;
 }
 .modal-2__img {
   position: absolute;
-width: 384px;
-left: -35px;
-bottom: -35px;
+  width: 296px;
+left: -55px;
+bottom: -75px;
+@media screen and (min-width: 1200px) {
+  width: 384px;
+}
 }
 
 .none{
