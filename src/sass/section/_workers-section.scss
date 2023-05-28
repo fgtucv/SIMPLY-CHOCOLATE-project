@@ -206,6 +206,10 @@
   margin-bottom: 19px;
 }
 
+.work-section__input:last-child{
+padding-left: 177px;
+}
+
 .tel-input {
   padding-left: 106px;
   @media screen and (min-width: 1200px) {
@@ -214,34 +218,29 @@
 }
 
 .work-section__tel-div {
+ width: 100%;
+}
+
+.work-section__tel-div-2{
   position: absolute;
-  left: 42px;
-  top: 320px;
-  border-right: 1px solid rgba(17, 17, 17, 0.1);
-  width: 80px;
-  height: 32px;
-  @media screen and (min-width: 1200px) {
-    left: 64px;
-  top: 323px;
   width: 125px;
-    }
+height: 32px;
+display: flex;
+align-items: center;
+top: 323px;
+left: 64px;
+border-right: #4040404d solid 1px;
 }
 
 .flag-Ukrain {
-  width: 24px;
-  height: 24px;
-  @media screen and (min-width: 1200px) {
-    width: 32px;
-    height: 26px;
-    }
+ margin-right: 18px;
+ width: 32px;
+height: 24px;
 }
 
-.work-section__label {
-  margin-left: 8px;
-  @media screen and (min-width: 1200px) {
-    margin-left: 14px;
-    }
-}
+// .work-section__label {
+  
+// }
 
 .work-section__input::placeholder {
   font-weight: 400;
@@ -308,7 +307,7 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 .is-hidden2 {
-  opacity: 1;
+  opacity: 0;
   pointer-events: none;
 }
 .modal-2 {
@@ -371,7 +370,7 @@ bottom: -75px;
 }
 }
 
-.none{
+.work-item-none{
   @media screen and (min-width: 320px) {
     display: none;
   }
@@ -381,7 +380,7 @@ bottom: -75px;
   }
 }
 
-.none-2{
+.work-item-none-2{
   @media screen and (min-width: 768px) {
     display: flex;
   }
