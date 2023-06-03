@@ -1,23 +1,21 @@
 {
-  "name": "simply-chocolate",
+  "name": "food-sta",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://fgtucv.github.io/SIMPLY-CHOCOLATE-project/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /SIMPLY-CHOCOLATE-project/",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build src/*.html --public-url /SIMPLY-CHOCOLATE-project/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fgtucv/SIMPLY-CHOCOLATE-project.git"
+    "url": "git+https://github.com/tate-t/SIMPLY-CHOCOLATE-project.git"
   },
   "keywords": [],
-  "author": "fgtucv <test@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fgtucv/SIMPLY-CHOCOLATE-project/issues"
+    "url": "https://github.com/tate-t/FoodSta/issues"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",

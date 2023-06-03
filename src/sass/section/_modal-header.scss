@@ -1,47 +1,79 @@
-.modal {
+.backdrop-3 {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }  
+}
+
+.is-hidden3 {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.header-modal {
+  width: 220px;
+  height: 1024px;
+  background-color: #1e1823;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-left: 32px;
+  padding-bottom: 24px;
+  padding-top: 156px;
+  display: block;
+  @media screen and (min-width: 768px) {
     width: 290px;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 999;
-    background-color: #1f1924;
-    
-        @media screen and (min-width: 1200px) {
-        display: none;
-        }  
-
-    a {
-        color: #ffffff;
-        font-size: 1rem;
-        transition: color 0.3s;
-
-        &:hover {
-            color: #fd9221;
-        }
-    }
+  }  
 }
 
-.close {
-    position: absolute;
-    width: 13px;
-    height: 13px;
-    top: 33.33px;
-    right: 41.33px;
-    cursor: pointer;
+.header-modal__button {
+  position: absolute;
+  right: 32px;
+  top: 24px;
+  background-color: transparent;
+  border: none;
 }
 
-.modal-socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 21px;
-    position: absolute;
-    bottom: 26px;
-    left: 36px;
+.header-modal__close-icon {
+  stroke: #ffffff;
+  width: 32px;
+  height: 32px;
+}
 
-    svg {
-        width: 22px;
-        height: 17.94px;
-    }
+.header-modal-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 340px;
+}
+
+.header-modal__span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.home {
+  color: #fd9222;
+}
+
+.header-modal__social-list {
+  display: flex;
+  gap: 18px;
+}
+
+.header-modal__icon {
+  stroke: #ffffff;
+  width: 24px;
+  height: 24px;
 }
