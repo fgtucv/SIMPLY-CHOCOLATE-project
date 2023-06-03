@@ -1,0 +1,2 @@
+(()=>{let e={openModalBtn:document.querySelector("[data-open-modal4]"),closeModalBtn:document.querySelector("[data-close-modal4]"),backdrop:document.querySelector("[data-backdrop4]")};function o(){e.backdrop.classList.toggle("is-hidden4")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o),e.backdrop.addEventListener("click",function(){console.log("Це клік в бекдроп")})})();
+//# sourceMappingURL=index.b2db4004.js.map
