@@ -26,6 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .shop__item {
@@ -53,7 +54,7 @@
 .shop__text {
     display: none;
     @media screen and (min-width: 768px) {
-        width: 407px;
+        max-width: 407px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -61,6 +62,22 @@
     letter-spacing: -0.02em;
     color: $description-color;
     display: flex;
+    }
+}
+
+.shop__text-2{
+    max-width: 306px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: $description-color;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    @media screen and (min-width: 768px) {
+    display: none;
     }
 }
 
@@ -108,7 +125,9 @@
     background-color: #FAFAFA;
     border-radius: 15px;
     z-index: 100;
-    padding: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 24px;
     overflow-y: scroll;
     height: 100%;
     @media screen and (min-width: 768px) {
@@ -271,6 +290,7 @@ height: 148px;
     line-height: 18px;
     letter-spacing: -0.02em;
     color: #000000;
+    margin-bottom: 8px;
 }
 
 .shop-modal__textarea {
@@ -301,13 +321,7 @@ height: 148px;
     line-height: 17px;
     color: #FFFFFF;
     border: none;
-}
-
-.shop-none{
-    display: none;
-    @media screen and (min-width:768px) {
-        display: block;
-    }
+    margin-top: 22px;
 }
 
 .shop-none-2{

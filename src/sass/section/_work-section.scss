@@ -36,11 +36,13 @@
 }
 
 .work__image {
+    width: 335px;
+    height: 500px; 
+    border-radius: 15px;
+@media screen and (min-width: 768px) {
     width: 600px;
     height: 400px;
-    border-radius: 15px;
-    margin-right: 52px;
-    
+    }  
 }
 
 .work__discription{
@@ -106,6 +108,7 @@
     width: 516px;
     background-color: #FFFFFF;
 border-radius: 15px;
+display: block;
 }
 
 .work__info-title {
