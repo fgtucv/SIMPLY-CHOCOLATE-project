@@ -119,6 +119,12 @@
   margin-right: auto;
   margin-top: 50px;
   background-color: transparent;
+  transition: background-color 500ms linear 250ms, color 500ms linear 250ms;
+}
+
+.work-section__button:hover{
+  background-color: #FD9222;
+  color: #FFFFFF;
 }
 
 // modal

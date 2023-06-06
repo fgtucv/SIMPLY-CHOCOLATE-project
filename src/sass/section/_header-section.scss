@@ -65,6 +65,7 @@ header {
         letter-spacing: -0.02em;
         color: $description-color;
         text-decoration: none;
+        transition: color 500ms linear 250ms;
     }  
 }
 
@@ -93,7 +94,7 @@ header {
     height: 24px;
     fill:$text-color;
     stroke: #000000;
-
+    transition: stroke 500ms linear 250ms, transform 500ms linear 250ms;
 }
 
 .header-lis-icon__twitter{
@@ -101,16 +102,17 @@ header {
     height: 24px;
     fill: $text-color;
     stroke: #000000;
-
+    transition: stroke 500ms linear 250ms, transform 500ms linear 250ms;
 }
 
 .header-lis-icon__instagram:hover{
     stroke: $main-color;
-
+    transform: scale(1.1);
 }
 
 .header-lis-icon__twitter:hover {
     stroke: $main-color;
+    transform: scale(1.1);
 }
 
 .header__open-button{

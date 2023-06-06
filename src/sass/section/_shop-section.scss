@@ -27,12 +27,9 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.shop__item {
-    margin-right: 0;
+    gap: 16px;
     @media screen and (min-width: 768px) {
-        margin-right: 16px;
+        flex-wrap: nowrap;
     }
 }
 
@@ -92,10 +89,16 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    transition: background-color 500ms linear 250ms, color 500ms linear 250ms;
     @media screen and (min-width: 768px) {
         margin-left: auto;
         margin-right: 0;
     }  
+}
+
+.shop__btn:hover{
+    background-color: #FCF1E0;
+    color: #FD9222;
 }
 
 // modal
