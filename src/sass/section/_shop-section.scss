@@ -1,3 +1,13 @@
+.shop{
+    margin-top: 105px;
+    @media screen and (min-width: 768px) {
+      margin-top: 145px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-top: 173px;
+    }
+}
+
 .shop__title {
     font-style: normal;
     font-weight: 600;
@@ -7,7 +17,6 @@
     letter-spacing: -0.03em;
     text-transform: uppercase;
     color: $main-color;
-    margin-top: 128px;
     margin-bottom: 50px;
 }
 
@@ -268,7 +277,9 @@ height: 148px;
     margin-bottom: 18px;
 }
 
-// .shop-modal__item {}
+.shop-modal__item {
+    position: relative;
+}
 
 .shop-modal__input-span {
     font-weight: 500;
@@ -276,6 +287,8 @@ height: 148px;
     line-height: 18px;
     letter-spacing: -0.02em;
     color: #000000;
+    margin-bottom: 8px;
+    display: block;
 }
 
 .shop-modal__info-input {
@@ -287,6 +300,59 @@ height: 148px;
     filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
 }
 
+.Master_card{
+    position: absolute;
+    right: 38px;
+    top: 44px;
+    z-index: 100;
+    @media screen and (min-width: 768px) {
+        left: 445px;
+        right: 0;
+    }
+}
+
+.tel-input-2{
+    padding-left: 106px;
+    @media screen and (min-width: 768px) {
+        padding-left: 177px;
+        }
+}
+
+.tel-div-2 {
+    width: 74px;
+    position: absolute;
+    left: 24px;
+    top: 46px;
+    display: flex;
+    align-items: center;
+    border-right: #4040404d solid 1px;
+    @media screen and (min-width: 768px) {
+        width: 125px;
+        }
+}
+.flag-Ukrain-2 {
+    margin-right: 8px;
+ width: 24px;
+height: 18px;
+@media screen and (min-width: 768px) {
+  margin-right: 18px;
+  width: 32px;
+height: 24px;
+  }
+}
+.tel-span {
+    font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+color: #000000;
+@media screen and (min-width: 768px) {
+    font-size: 18px;
+    }
+}
+
 .shop-modal__textarea-span {
     font-weight: 500;
     font-size: 14px;
@@ -294,6 +360,7 @@ height: 148px;
     letter-spacing: -0.02em;
     color: #000000;
     margin-bottom: 8px;
+    display: block;
 }
 
 .shop-modal__textarea {
@@ -304,6 +371,7 @@ height: 148px;
     filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
     padding-top: 22px;
     padding-left: 24px;
+    resize: none;
 }
 
 .shop-modal__textarea::placeholder {
@@ -338,5 +406,98 @@ height: 148px;
     display: none;
     @media screen and (min-width:768px) {
         display: block;
+    }
+}
+
+// .shop-modal__name-input-2
+
+.is-hidden6 {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+.backdrop-6{
+    position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: opacity 500ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 250ms;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.shop-modal2 {
+    background-color: #FD9222;
+border-radius: 15px;
+padding-top: 84px;
+padding-left: 68px;
+width: 311px;
+height: 350px;
+position: relative;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @media screen and (min-width:768px) {
+width: 516px;
+height: 414px;
+padding-top: 154px;
+padding-left: 163px;
+}
+}
+.shop-modal2__button-close {
+    background-color: #FCF1E0;
+    width: 30px;
+height: 30px;
+border-radius: 50%;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+right: 14px;
+top: 14px;
+@media screen and (min-width:768px) {
+    right: 24px;
+top: 24px;
+    }
+}
+.shop-modal2__icon-close {
+    stroke: #FD9222;
+    width: 22px;
+height: 22px;
+}
+.shop-modal2__titel {
+    font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #FCF1E0;
+margin-bottom: 8px;
+@media screen and (min-width:768px) {
+    font-size: 24px;
+    }
+}
+.shop-modal2__text {
+    font-weight: 400;
+    font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+@media screen and (min-width:768px) {
+    font-size: 18px;
+    }
+}
+.shop-modal2__img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 220px;
+    height: 200px;
+    @media screen and (min-width:768px) {
+        width: 296px;
+height: 330px;
     }
 }

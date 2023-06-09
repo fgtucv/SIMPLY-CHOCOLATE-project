@@ -1,4 +1,4 @@
-<section class="shop">
+<section id="shop" class="shop">
   <div class="container">
     <h2 class="shop__title">
       tOp <span class="shop__title-color"> Sellers</span>
@@ -118,12 +118,19 @@
             <span class="shop-modal__input-span">
               Phone number
             </span>
-            <input placeholder="Phone number" class="shop-modal__info-input" type="text">
+            <input placeholder="Phone number" class="shop-modal__info-input tel-input-2" type="text">
+            <div class="tel-div-2">
+              <img class="flag-Ukrain-2" src="./images/dekstop@1x/flag-Ukrain-dekstop@1x.webp" alt="Ukraine">
+              <span class="tel-span">
+                +380
+              </span>
+            </div>
           </li>
           <li class="shop-modal__item">
             <span class="shop-modal__input-span">
               Card number
             </span>
+            <img class="Master_card" src="./images/dekstop@1x/Mastercard.png" alt="Master card">
             <input placeholder="Enter  card" class="shop-modal__info-input" type="text">
           </li>
         </ul>
@@ -131,12 +138,42 @@
           Comment
         </span>
         <textarea placeholder="Enter text" class="shop-modal__textarea" name="" id="" cols="30" rows="10"></textarea>
-        <button class="shop-modal__submit">
+        <button data-open-modal6 data-send6 class="shop-modal__submit">
           Submit
         </button>
     </div>
     </form>
   </div>
+
+  <!-- modal-2 -->
+<div class="backdrop-6 is-hidden6" data-backdrop6>
+  <div class="shop-modal2">
+    <button data-close-modal6 class="shop-modal2__button-close">
+      <svg class="shop-modal2__icon-close">
+      <use href="./images/symbol-defs.svg#icon-close-icon"></use>
+    </svg>
+    </button>
+    <h2 class="shop-modal2__titel">
+      thank you!
+    </h2>
+    <p class="shop-modal2__text">
+      We are glad that you ordered our chocolate and we are giving you a 20% discount on all our products.
+    </p>
+    <picture>
+      <source srcset="
+        ./images/dekstop@1x/modal-chocolate.png 1x,
+        ./images/dekstop@1x/modal-chocolate.png 2x
+        " media="(min-width: 1200px)">
+      <source srcset="
+      ./images/mobile@1x/modal-chocolate.png 1x,
+        ./images/mobile@1x/modal-chocolate.png 2x
+        " media="(min-width: 320px)">
+        <img class="shop-modal2__img" src="./images/dekstop@1x/modal-chocolate.png" alt="chocolate">
+  </picture>
+   
+  </div>
+</div>
+  
   </div>
 
 </section>

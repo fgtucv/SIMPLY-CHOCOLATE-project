@@ -1,3 +1,13 @@
+.work{
+    margin-top: 72px;
+    @media screen and (min-width: 768px) {
+      margin-top: 100px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-top: 128px;
+    }
+}
+
 .work .container {
     width: 100%;
     display: flex;
@@ -18,7 +28,6 @@
     letter-spacing: -0.03em;
     text-transform: uppercase;
     color: $description-color;
-    margin-top: 128px;
 }
 
 .work__title-color {
