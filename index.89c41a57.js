@@ -1,0 +1,2 @@
+(()=>{let e={openModalBtn:document.querySelector("[c]"),closeModalBtn:document.querySelector("[data-close-modal3]"),backdrop:document.querySelector("[data-backdrop3]")};function o(){e.backdrop.classList.toggle("is-hidden3")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o),e.backdrop.addEventListener("click",function(){console.log("Це клік в бекдроп")})})();
+//# sourceMappingURL=index.89c41a57.js.map
