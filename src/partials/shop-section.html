@@ -1,92 +1,179 @@
-<section class="product">
-    <div class="container">
-      <h2 class="product__title">
-        tOp <span class="product__title-color"> Sellers</span>
-      </h2>
-      <div class="product__card">
-        <ul class="product__list">
-          <li class="product__item">
-            <picture>
-              <sourcec
-                srcset="
+<section id="shop" class="shop">
+  <div class="container">
+    <h2 class="shop__title">
+      tOp <span class="shop__title-color"> Sellers</span>
+    </h2>
+    <div class="shop__card">
+      <ul class="shop__list">
+        <li class="shop__item">
+          <picture>
+            <sourcec srcset="
                   ./images/dekstop@1x/products-img1-dekstop@1x.webp 1x,
                   ./images/dekstop@2x/products-img1-dekstop@2x.webp 2x
-                "
-                media="min-width: 1200px"
-              />
-              <source  
-                srcset="
+                " media="min-width: 1200px" />
+            <source srcset="
                   ./images/tablet@1x/products-img1-tablet@1x.webp 1x,
                   ./images/tablet@2x/products-img1-tablet@2x.webp 2x
-                "
-                media="max-width: 1199px"
-              />
-              <source
-                srcset="
+                " media="max-width: 1199px" />
+            <source srcset="
                   ./images/mobile@1x/products-img1-mobile@1x.webp 1x,
                   ./images/mobile@2x/products-img1-mobile@2x.webp 2x
-                "
-                media="max-width: 767px"
-              />
-              <img
-                class="product__image"
-                src="./images/mobile@1x/products-img1-mobile@1x.webp"
-                alt="products"
-              />
-            </picture>
-          </li>
-          <li class="product__item">
-            <picture>
-              <source
-                srcset="
+                " media="max-width: 767px" />
+            <img class="shop__image" src="./images/mobile@1x/products-img1-mobile@1x.webp" alt="products" />
+          </picture>
+          <p class="shop__text-2">
+            Crazy enough chocolate originates from a bean just like the coffee bean
+            called Cacao. Cacao has been around for thousands of years and was first
+            discovered by the Native American tribe called the Mayans.
+          </p>
+        </li>
+        <li class="shop__item">
+          <picture>
+            <source srcset="
                   ./images/dekstop@1x/products-img2-dekstop@1x.webp 1x,
                   ./images/dekstop@2x/products-img2-dekstop@2x.webp 2x
-                "
-                media="min-width: 1200px"
-              />
-              <source
-                srcset="
+                " media="min-width: 1200px" />
+            <source srcset="
                   ./images/tablet@1x/products-img2-tablet@1x.webp 1x,
                   ./images/tablet@2x/products-img2-tablet@2x.webp 2x
-                "
-                media="max-width: 1199px"
-              />
-              <source
-                srcset="
+                " media="max-width: 1199px" />
+            <source srcset="
                   ./images/mobile@1x/products-img2-mobile@1x.webp 1x,
                   ./images/mobile@2x/products-img2-mobile@2x.webp 2x
-                "
-                media="max-width: 767px"
-              />
-              <img
-                class="product__image"
-                src="./images/mobile@1x/products-img2-mobile@1x.webp"
-                alt="products"
-              />
-            </picture>
-          </li>
-          <li class="product__item">
-            <picture>
-              <source
-                srcset="
+                " media="max-width: 767px" />
+            <img class="shop__image" src="./images/dekstop@1x/products-img2-dekstop@1x.webp" alt="products" />
+          </picture>
+        </li>
+        <li class="shop__item">
+          <picture>
+            <source srcset="
                   ./images/dekstop@1x/products-img3-dekstop@1x.webp 1x,
                   ./images/dekstop@2x/products-img3-dekstop@2x.webp 2x
-                "
-                media="min-width: 1200px"
-              />
-            </picture>
+                " media="min-width: 1200px" />
+            <img class="shop__image shop-none-2" src="./images/mobile@1x/products-img3-mobile@1x.webp" alt="products" />
+          </picture>
+        </li>
+      </ul>
+    </div>
+    <div class="shop__componets">
+      <p class="shop__text">
+        Crazy enough chocolate originates from a bean just like the coffee bean
+        called Cacao. Cacao has been around for thousands of years and was first
+        discovered by the Native American tribe called the Mayans.
+      </p>
+      <button class="shop__btn" data-open-modal4>
+        <span class="shop__btn-text">Buy now</span>
+      </button>
+    </div>
+  </div>
+  <!-- modal -->
+  <div class="backdrop4 is-hidden4" data-backdrop4>
+    <div class="shop-modal">
+      <button class="shop-modal__button" type="button" data-close-modal4>
+        <svg class="shop-modal__close-icon">
+          <use href="./images/symbol-defs.svg#icon-close-icon"></use>
+        </svg>
+      </button>
+      <h2 class="shop-modal__main-title">
+        <span class="shop-modal__main-span">
+          bUY
+        </span>
+        nOW
+      </h2>
+      <ul class="shop-modal__pruduct-list">
+        <li class="shop-modal__pruduct-item">
+          <img src="./images/dekstop@1x/kinder-dekstop@1x..png" alt="1" class="shop-modal__pruduct-img">
+          <button class="shop-modal__price-button">
+            100 g
+          </button>
+        </li>
+        <li class="shop-modal__pruduct-item shop-modal__none-item">
+          <img src="./images/dekstop@1x/bonbong-dekstop@1x..png" alt="1" class="shop-modal__pruduct-img">
+          <button class="shop-modal__price-button">
+            200 g
+          </button>
+        </li>
+        <li class="shop-modal__pruduct-item shop-modal__none-item">
+          <img src="./images/dekstop@1x/dark-chocolate-dekstop@1x..png" alt="1" class="shop-modal__pruduct-img">
+          <button class="shop-modal__price-button">
+            300 g
+          </button>
+        </li>
+      </ul>
+      <form action="" class="shop-modal__form">
+        <div class="shop-modal__input-main">
+          <span class="shop-modal__name">Personal information</span>
+          <div class="shop-modal__name-div"></div>
+          <input placeholder="Name" class="shop-modal__name-input shop-modal__name-input-2" type="text">
+          <input placeholder="Surname" class="shop-modal__name-input" type="text">
+        </div>
+        <ul class="shop-modal__input-list">
+          <li class="shop-modal__item">
+            <span class="shop-modal__input-span">
+              Email
+            </span>
+            <input placeholder="Enter your email" class="shop-modal__info-input" type="text">
+          </li>
+          <li class="shop-modal__item">
+            <span class="shop-modal__input-span">
+              Phone number
+            </span>
+            <input placeholder="Phone number" class="shop-modal__info-input tel-input-2" type="text">
+            <div class="tel-div-2">
+              <img class="flag-Ukrain-2" src="./images/dekstop@1x/flag-Ukrain-dekstop@1x.webp" alt="Ukraine">
+              <span class="tel-span">
+                +380
+              </span>
+            </div>
+          </li>
+          <li class="shop-modal__item">
+            <span class="shop-modal__input-span">
+              Card number
+            </span>
+            <img class="Master_card" src="./images/dekstop@1x/Mastercard.png" alt="Master card">
+            <input placeholder="Enter  card" class="shop-modal__info-input" type="text">
           </li>
         </ul>
-      </div>
-        <div class="product__componets">
-        <p class="product__text">
-          Crazy enough chocolate originates from a bean just like the coffee bean
-          called Cacao. Cacao has been around for thousands of years and was first
-          discovered by the Native American tribe called the Mayans.
-        </p>
-        <button class="product__btn">
-          <span class="product__btn-text">Buy now</span>
-        </button> 
-      </div>
+        <span class="shop-modal__textarea-span">
+          Comment
+        </span>
+        <textarea placeholder="Enter text" class="shop-modal__textarea" name="" id="" cols="30" rows="10"></textarea>
+        <button data-open-modal6 data-send6 class="shop-modal__submit">
+          Submit
+        </button>
     </div>
-  </section>
+    </form>
+  </div>
+
+  <!-- modal-2 -->
+<div class="backdrop-6 is-hidden6" data-backdrop6>
+  <div class="shop-modal2">
+    <button data-close-modal6 class="shop-modal2__button-close">
+      <svg class="shop-modal2__icon-close">
+      <use href="./images/symbol-defs.svg#icon-close-icon"></use>
+    </svg>
+    </button>
+    <h2 class="shop-modal2__titel">
+      thank you!
+    </h2>
+    <p class="shop-modal2__text">
+      We are glad that you ordered our chocolate and we are giving you a 20% discount on all our products.
+    </p>
+    <picture>
+      <source srcset="
+        ./images/dekstop@1x/modal-chocolate.png 1x,
+        ./images/dekstop@1x/modal-chocolate.png 2x
+        " media="(min-width: 1200px)">
+      <source srcset="
+      ./images/mobile@1x/modal-chocolate.png 1x,
+        ./images/mobile@1x/modal-chocolate.png 2x
+        " media="(min-width: 320px)">
+        <img class="shop-modal2__img" src="./images/dekstop@1x/modal-chocolate.png" alt="chocolate">
+  </picture>
+   
+  </div>
+</div>
+  
+  </div>
+
+</section>

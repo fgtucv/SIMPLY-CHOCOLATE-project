@@ -1,19 +1,28 @@
 // vf
 
+.hero-section{
+  margin-bottom: 72px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
 .hero-section .container {
   background-image: url(../images/dekstop@1x/chocolate-hero-dekstop@1x.webp);
   background-position: center;
   background-size: cover;
   padding-top: 381px;
-  padding-left: 40px;
-  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-bottom: 20px;
   border-radius: 30px;
   background-color: #FCF1E0;
 
   @media screen and (min-width: 768px) {
     padding-top: 671px;
-  padding-left: 20px;
-  padding-bottom: 20px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 381px;
   }
 }
 
@@ -55,19 +64,19 @@ letter-spacing: -0.03em;
 .hero-section__button-1 {
   background-color: #fd9222;
   border-radius: 100px;
-  display: block;
+  display: flex;
   align-items: flex-start;
-  padding: 14px 40px;
-  gap: 14px;
+  padding: 12px 28px;
   border: none;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 17px;
   color: #ffffff;
   margin-right: 14px;
   transition: background-color 500ms linear 250ms, color 500ms linear 250ms;
-  @media screen and (min-width: 375px) {
-    display: flex;
+  @media screen and (min-width: 768px) {
+    padding: 14px 40px;
+    font-size: 14px;
   }
 }
 
@@ -76,11 +85,10 @@ letter-spacing: -0.03em;
   display: flex;
   align-items: flex-start;
   padding: 12px 28px;
-  gap: 14px;
   border: 1px solid #ffffff;
   border-radius: 100px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 17px;
   color: #ffffff;
   margin-top: 12px;
@@ -92,6 +100,7 @@ letter-spacing: -0.03em;
 
   @media screen and (min-width: 768px) {
     padding: 14px 40px;
+    font-size: 14px;
   }
 }
 
@@ -102,7 +111,7 @@ letter-spacing: -0.03em;
 
 .hero-section__button-1:hover{
   color: #FD9222;
-  background: #FCF1E0;
+  background-color: #FCF1E0;
 }
 
 .hero-section__scroll {
@@ -130,6 +139,11 @@ letter-spacing: -0.03em;
 
 .hero-section__scroll-icon {
   fill: #fd9222;
+  transition: fill 500ms linear 250ms;
+}
+
+.hero-section__scroll-icon:hover{
+  fill: #ffffff;
 }
 
 .scrol-button{
@@ -141,4 +155,9 @@ letter-spacing: -0.03em;
   justify-content: center;
   align-items: center;
   display: flex;
+  transition: background-color 500ms linear 250ms;
+}
+
+.scrol-button:hover{
+  background-color: #fd9222;
 }
